@@ -44,16 +44,6 @@ plt.xlabel('Region')
 plt.ylabel('Total sales')
 plt.show()
 
-# #Create a 3d plot
-# df['Region Index']=range(len(df))
-# fig=plt.figure()
-# ax=fig.add_subplot(111, projection='3d')
-# ax.scatter(df['Region'], df['Total sales'], df['Order Date'])
-#
-# ax.set_xticks(df['Region Index'])
-# ax.set_xticklabels(df['Region'])
-#
-# ax.set_xlabel('Region')
-# ax.set_ylabel('total sales')
-# ax.set_zlabel('Order date')
+#now Creating a 3d plot
+
 
